@@ -1,0 +1,37 @@
+services:
+    postgres:
+        image: postgres:13
+        environment:
+            - POSTGRES_USER=PGDB
+            - POSTGRES_PASSWORD=8122
+            - POSTGRES_DB=G_taxi
+        networks:
+            - my_network
+        volumes:
+            - D:\Shair storae\Project\DE Zoom camp\Module 1\Vcood\G_Data:/var/lip/postgresql/data:rw
+        ports: 
+            - 5432:5000
+
+    pgadmin:
+        image: dpage/pgadmin4
+        environment:
+            - PGADMIN_DEFAULT_EMAIL=mahmoud.mamdoh0812@gmail.com
+            - PGADMIN_DEFAULT_PASSWORD=Momo81220
+        networks:
+            - my_network
+        volumes:
+            - D:\Shair storae\Project\DE Zoom camp\Module 1\Vcood\G_Data:/var/lip/pgadmin
+        ports: 
+            - "8080:80"
+    python:
+        image: vcood-python
+        volumes:
+            - D:\Shair storae\Project\DE Zoom camp\Module 1\Vcood\Python_Notebooks:/app/notebooks
+        ports:
+            - "8888:8888"
+        networks:
+            - my_network
+networks:
+  my_network:
+
+            
