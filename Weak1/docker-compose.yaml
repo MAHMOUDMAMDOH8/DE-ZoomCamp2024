@@ -3,7 +3,7 @@ services:
         image: postgres:13
         environment:
             - POSTGRES_USER=***
-            - POSTGRES_PASSWORD=8122
+            - POSTGRES_PASSWORD=root
             - POSTGRES_DB=G_taxi
         networks:
             - my_network
@@ -15,7 +15,7 @@ services:
     pgadmin:
         image: dpage/pgadmin4
         environment:
-            - PGADMIN_DEFAULT_EMAIL=mahmoud.mamdoh0812@gmail.com
+            - PGADMIN_DEFAULT_EMAIL=root.root@gmail.com
             - PGADMIN_DEFAULT_PASSWORD=***********
         networks:
             - my_network
