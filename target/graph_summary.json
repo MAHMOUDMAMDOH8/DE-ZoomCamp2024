@@ -1,1 +1,0 @@
-{"_invocation_id": "ae2cb63d-b391-495f-be26-f4326f1d5633", "linked": {"0": {"name": "source.taxi_ny.staging.Green_tripdata", "type": "source", "succ": [2, 3]}, "1": {"name": "source.taxi_ny.staging.yello_tripdata", "type": "source"}, "2": {"name": "model.taxi_ny.base_staging_Green_tripdata", "type": "model"}, "3": {"name": "model.taxi_ny.payment_type", "type": "model"}}}
