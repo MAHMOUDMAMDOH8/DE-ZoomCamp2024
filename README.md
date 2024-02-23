@@ -1,20 +1,15 @@
-# Data Engineering Zoomcamp by DataTalks.club
+Welcome to your new dbt project!
 
-## Course Overview
+### Using the starter project
 
-### Module 1: Containerization and Infrastructure as Code
+Try running the following commands:
+- dbt run
+- dbt test
 
-- **Course Overview**: Introduction to the course and its objectives.
-- **Introduction to GCP**: An overview of Google Cloud Platform.
-- **Docker and docker-compose**: Understanding containerization with Docker.
-- **Running Postgres locally with Docker**: Setting up a local Postgres instance using Docker.
-- **Setting up infrastructure on GCP with Terraform**: Introduction to Infrastructure as Code using Terraform.
-- **Preparing the environment for the course**: Setting up the development environment.
-- **Homework**: Practical exercises to reinforce learning.
 
-### Module 2: Workflow Orchestration
-
-- **Data Lake**: Understanding the concept of a Data Lake.
-- **Workflow orchestration**: Managing data workflows efficiently.
-- **Workflow orchestration with Mage**: Practical use of the Mage tool.
-- **Homework**: Hands-on assignments related to workflow orchestration.
+### Resources:
+- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
+- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
+- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
+- Find [dbt events](https://events.getdbt.com) near you
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
