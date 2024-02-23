@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: staging
+    database: Dezoom
+     # For postgres:
+      #database: production
+    schema: public
+
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: Green_tripdata
+      - name: yello_tripdata
+      - name: fhv_tripdata
+
